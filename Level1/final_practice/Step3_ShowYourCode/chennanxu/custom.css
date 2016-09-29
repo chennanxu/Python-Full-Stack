@@ -6,7 +6,7 @@
     position: relative;
 }
 
-.ui.three.item.menu {
+.ui.three.buttons {
     box-sizing: border-box;
     position: relative;
     width: 600px;
@@ -19,7 +19,8 @@
     box-sizing: border-box;
     position: absolute;
     top: 30%;
-    left: 20%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .ui.two.item.menu {
@@ -33,4 +34,10 @@
 .contenimg {
     height: 50px;
     object-fit: cover;
+}
+
+.ui.card
+{
+    box-shadow:none;
+    width:100%;
 }
